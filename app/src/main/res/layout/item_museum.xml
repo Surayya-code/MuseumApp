@@ -2,7 +2,6 @@
 <layout>
 
     <data>
-
         <variable
             name="museum"
             type="com.example.museumapp.model.MuseumData" />

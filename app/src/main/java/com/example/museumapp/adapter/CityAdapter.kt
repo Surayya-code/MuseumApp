@@ -19,7 +19,7 @@ class CityAdapter:RecyclerView.Adapter<CityAdapter.CityViewHolder>() {
 
         itemCityBinding.cardCity.setOnClickListener {
             Navigation.findNavController(it)
-                .navigate(CityFragmentDirections.actionCityFragmentToMuseumFragment(cityData.sehir))
+                .navigate(CityFragmentDirections.actionCityFragmentToMuseumFragment(cityData))
         }
     }}
 

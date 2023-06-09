@@ -20,7 +20,7 @@
         android:label="fragment_museum"
         tools:layout="@layout/fragment_museum" >
         <argument
-            android:name="cityName"
-            app:argType="string" />
+            android:name="cityData"
+            app:argType="com.example.museumapp.model.CityData" />
     </fragment>
 </navigation>
